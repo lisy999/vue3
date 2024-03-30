@@ -1,11 +1,12 @@
 <template>
   <!-- 使用ref进行双向数据绑定 -->
-  <RefComponents />
+  <div>
+    <Day1 />
+  </div>
 </template>
 
 <script setup lang="ts">
-import { ref, reactive } from 'vue'
-import RefComponents from '@/components/ref.vue'
+import Day1 from '@/components/day1/index.vue'
 </script>
 
 <style scoped></style>
