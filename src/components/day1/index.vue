@@ -1,9 +1,9 @@
 <template>
-  <Ref />
+  <RefTest />
 </template>
 
 <script setup lang="ts">
-import Ref from './reftest.vue'
+import RefTest from './RefTest.vue'
 </script>
 
 <style scoped></style>
