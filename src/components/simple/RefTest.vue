@@ -7,7 +7,7 @@
       <el-form-item label="年龄">
         <el-input v-model="person.age"></el-input>
       </el-form-item>
-      <div>{{ personComputed }}</div>
+      <div>计算属性：{{ personComputed }}</div>
     </el-form>
 
     <el-button :onclick="changeName" type="primary">改变姓名</el-button>
