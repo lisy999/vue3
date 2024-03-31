@@ -31,7 +31,7 @@ const changeAll = () => {
   //reactive 写法
   Object.assign(person, { name: (name.value += '~'), age: age.value + 1 })
   //ref写法
-  // person.value = { ...person.value, name: '李思源' }\
+  // person.value = { ...person.value+=1, name: name.value += '~' }
 }
 const personComputed = computed({
   get() {
