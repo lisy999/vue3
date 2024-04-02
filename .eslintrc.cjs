@@ -18,7 +18,6 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'error',
     'no-unused-vars': 'error', // 禁止未使用的变量
     'no-extra-semi': 'error', // 禁止多余的分号
-    'no-console': 'error', // 禁止使用 console
     'no-eval': 'error', // 禁止使用 eval
     'no-unused-labels': 'error', // 禁止出现未使用过的 label
     eqeqeq: 'error', // 强制使用=== 和 !==

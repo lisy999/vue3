@@ -7,6 +7,7 @@
 
 <script setup lang="ts">
 import Simple from '@/components/simple/index.vue'
+// import Simple from '@/components/watch.vue'
 </script>
 
 <style scoped></style>
